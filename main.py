@@ -41,7 +41,7 @@ def first():
 def second(m):
     print("\nВведіть значення а:")
     a = int(input())
-    return a % m
+    return a - (a // m * m)
 
 
 def third(a, b, m):
